@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:digest/config/palette.dart';
 import 'package:digest/widgets/widgets.dart';
 import 'package:digest/models/models.dart';
+import 'package:digest/data/data.dart';
 
 
 class HomePage extends StatefulWidget {
