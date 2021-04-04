@@ -3,6 +3,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:digest/config/palette.dart';
 import 'package:digest/widgets/widgets.dart';
+import 'package:digest/models/models.dart';
+import 'package:digest/data/data.dart';
 
 
 class HomePage extends StatefulWidget {
@@ -37,7 +39,15 @@ class _HomePageState extends State<HomePage> {
                   onPressed: () => print('Search')
               )
             ],
-          )
+          ),
+          SliverList(
+            delegate: SliverChildBuilderDelegate((context, index) {
+                final Post post = posts[index];
+                return PostContainer(post: post);
+              },
+              childCount: posts.length,
+            ),
+          ),
         ]
       ),
     );
