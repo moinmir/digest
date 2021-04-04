@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1092616238581",
+    "project_id": "hackprincspr21",
+    "storage_bucket": "hackprincspr21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092616238581:android:c013828cbcf1c966755cbc",
+        "android_client_info": {
+          "package_name": "com.example.digest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1092616238581-lnjuu0vqugk61mggi5jaa74s2rdbq814.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4k_D4P5E67qS-1uUNm3H9rXqfiPFaXVw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1092616238581-lnjuu0vqugk61mggi5jaa74s2rdbq814.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
